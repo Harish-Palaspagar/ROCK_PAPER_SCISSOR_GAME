@@ -4,7 +4,7 @@
     border: 2px solid white;
     border-radius: 20px;
     text-align: center;
-    height: 600px;
+    height: 500px;
 }
 body {
   background-color: rgb(25, 25, 25);
@@ -17,6 +17,7 @@ body {
 }
 .move-icon {
   height: 50px;
+
 }
 .move-buton {
   background-color: transparent;
@@ -63,6 +64,9 @@ body {
   .move-buton {
       width: 60px;
       height: 60px;
+  }
+  .move-icon{
+    height: 30px;
   }
 
   .result {
