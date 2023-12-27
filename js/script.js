@@ -26,15 +26,15 @@ let score = JSON.parse(localStorage.getItem("score")) || {
       } else {
         result = "Tie";
       }
-    } else if (computerMove === "Paper") {
+    } else if (playerMove === "Paper") {
       if (computerMove === "Rock") {
-        result = "Tie";
-      } else if (computerMove === "Paper") {
-        result = "You Lose";
-      } else {
         result = "You Win";
+      } else if (computerMove === "Paper") {
+        result = "Tie";
+      } else {
+        result = "You Lose";
       }
-    } else {
+    } else if (playerMove === "Rock") {
       if (computerMove === "Rock") {
         result = "Tie";
       } else if (computerMove === "Paper") {
